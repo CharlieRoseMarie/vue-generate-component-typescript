@@ -17,7 +17,7 @@ gulp.task('copy', function() {
         })
         .pipe(gulp.dest('./dist'));
 
-    gulp.src('./lib/config/config.json')
+    return gulp.src('./lib/config/config.json')
         .pipe(gulp.dest('./dist/config'));
 });
 
@@ -28,9 +28,4 @@ gulp.task('clean', function() {
 });
 
 
-gulp.task('build', function(callback) {
-    runSequence('clean',
-        'dev',
-        'copy',
-        callback);
-});
+gulp.task('build', gulp.series('clean', 'dev', 'copy'));
