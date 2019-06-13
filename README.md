@@ -1,3 +1,5 @@
+[![TODO board](https://imdone.io/api/1.0/projects/5d02d93415e2c62cef456d79/badge)](https://imdone.io/app#/board/CharlieRoseMarie/vue-generate-component-typescript)
+
 # Vue js component generator [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 CLI util for easy generate Vue js component
